@@ -27,7 +27,7 @@ const Navbar = () => {
 
                 <Link to={"Home"} smooth={true} duration={500}>
                     <div className='px-7 cursor-pointer navlg:px-0'>
-                        <img src='./images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
+                        <img src='images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
                     </div>
                 </Link>
 
