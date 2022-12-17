@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <div className='px-7 cursor-pointer navlg:px-0'>
-                    <img src='../images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
+                    <img src='./images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
                 </div>
 
                 {/* Burger Menu Icon */}
