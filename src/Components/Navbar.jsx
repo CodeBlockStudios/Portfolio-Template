@@ -24,9 +24,12 @@ const Navbar = () => {
             <div className='items-center py-4 navlg:px-10 navlg:flex navlg:justify-between'>
 
                 {/* Logo */}
-                <div className='px-7 cursor-pointer navlg:px-0'>
-                    <img src='./images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
-                </div>
+
+                <Link to={"Home"} smooth={true} duration={500}>
+                    <div className='px-7 cursor-pointer navlg:px-0'>
+                        <img src='./images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
+                    </div>
+                </Link>
 
                 {/* Burger Menu Icon */}
                 <div className="text-3xl absolute right-5 top-4 cursor-pointer navlg:hidden">
