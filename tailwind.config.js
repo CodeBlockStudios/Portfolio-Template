@@ -22,12 +22,12 @@ module.exports = {
         'navlg': '940px',
       },
       colors:{
-        primarycolor: '#363636',
+        primarycolor: '#121212',
         secondarycolor: '#C2410C',
     
         fontprimary: '#E5E7EB',
         fontsecondary: '#9CA3AF',
-        fontbody: '#6B7280',
+        fontbody: '#707b82',
         fontaccent: '#C2410C',
         navhover: '#9CA3AF',
     

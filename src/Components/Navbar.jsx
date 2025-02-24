@@ -16,9 +16,6 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
     const [click, setClick] = useState(false)
 
-    const handleClick = () => setClick(!click)
-    const closeMenu = () => setClick(false)
-
     return (
         <div className='fixed w-full top-0 left-0 bg-primarycolor'>
             <div className='items-center py-4 navlg:px-10 navlg:flex navlg:justify-between'>
@@ -47,13 +44,13 @@ const Navbar = () => {
                     {
                         Links.map((Nav) => (
                             <li key={Nav.name} className="text-2xl my-7 navlg:ml-8 navlg:my-0">
-                                <Link to={Nav.name} spy={true} smooth={true} duration={500} activeClass='active'>{Nav.name}</Link>
+                                <Link onClick={() => setOpen(false)} to={Nav.name} spy={true} smooth={true} duration={500} activeClass='active'>{Nav.name}</Link>
                             </li>
                         ))
                     }
                     <Link to="Contact" smooth={true} duration={500}
                         className='cursor-pointer bg-buttoncolor text-fontprimary py-2 px-6 
-                    rounded navlg:ml-8 hover:bg-buttonhover duration-200 text-2xl'>
+                    rounded-sm navlg:ml-8 hover:bg-buttonhover duration-200 text-2xl'>
                         Contact
                     </Link>
                 </ul>

@@ -8,10 +8,10 @@ const Experience = () => {
                 <p className='text-fontprimary text-2xl font-medium px-3 py-2 sm:text-center sm:px-0'>Languages and software I've worked with:</p>
 
                 {/* Will need to change img src to link for each logo/icon */}
-                <p className='text-fontprimary text-2xl pl-3 pb-2 underline underline-offset-4 py-5 sm:text-center sm:px-0'>Web Development</p>
-                <div className='pl-3 grid grid-cols-3 gap-3 place-items-start md:gap-x-16 sm:px-0 sm:place-items-center'>
+                <p className='text-fontprimary text-2xl pl-3 pb-8 underline underline-offset-4 py-5 sm:text-center sm:px-0'>Web Development</p>
+                <div className='pl-3 grid grid-cols-3 gap-4 place-items-start md:gap-x-20 sm:px-0 sm:place-items-center'>
                     <div className='grid items-center'>
-                        <img src='images/square.png' alt='square1' className='w-24 mx-auto sm:w-32'></img>
+                        <img src='images/square.png' alt='square1' className='w-24 mx-auto bg-gray-900  sm:w-32'></img>
                         <p className='text-fontprimary text-l font-medium text-center sm:text-xl'>HTML</p>
                     </div>
                     <div className='grid items-center pl-0'>
@@ -36,7 +36,7 @@ const Experience = () => {
                     </div>
                 </div>
 
-                <p className='text-fontprimary text-2xl pl-3 pb-2 underline underline-offset-4 py-5 sm:text-center sm:px-0'>Design</p>
+                <p className='text-fontprimary text-2xl pl-3 pb-8 underline underline-offset-4 py-5 sm:text-center sm:px-0'>Design</p>
                 <div className='pl-3 grid grid-cols-3 gap-3 place-items-start md:grid-cols-2 md:gap-x-16 sm:px-0 sm:place-items-center'>
                     <div className='grid items-center pl-0'>
                         <img src='images/square.png' alt='square1' className='w-24 mx-auto sm:w-32'></img>

@@ -13,7 +13,7 @@ const Contact = () => {
                     <input name="email" type='email' placeholder='Email' className='pl-3 py-2 my-3' required></input>
                     <input name="message" type='text' placeholder='Message' className='pl-3 pt-2 pb-44 my-3' required></input>
                     <div className='flex items-center justify-center'>
-                        <button type="submit" className='bg-buttoncolor rounded py-3 px-20 mt-4 text-fontprimary text-3xl font-medium sm:px-32 hover:bg-buttonhover'>SEND</button>
+                        <button type="submit" className='bg-buttoncolor rounded-sm py-3 px-20 mt-4 text-fontprimary text-3xl font-medium sm:px-32 hover:bg-buttonhover'>SEND</button>
                     </div>
                 </form>
             </div>

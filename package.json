@@ -1,7 +1,7 @@
 {
   "homepage": "https://codeblockstudios.github.io/Portfolio-Template/",
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "portfolio-template",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -3,5 +3,5 @@ li{
 }
 
 .active{
-    @apply pb-1 border-b-4 border-b-fontaccent;
+    @apply pb-1 border-b-2 border-b-fontaccent;
 }
