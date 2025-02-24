@@ -14,7 +14,7 @@ let Links = [
 const Navbar = () => {
 
     const [open, setOpen] = useState(false)
-    const [click, setClick] = useState(false)
+    const [click] = useState(false)
 
     return (
         <div className='fixed w-full top-0 left-0 bg-primarycolor'>
